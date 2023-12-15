@@ -1,20 +1,14 @@
 <!doctype html>
-<html>
+<html class="no-js" lang="">
 <head>
    @include('includes.head')
 </head>
 <body>
-<div class="container">
-   <header class="row">
        @include('includes.header')
-   </header>
-   <div id="main" class="row">
+       @include('includes.menu')
            @yield('content')
-   </div>
-   <footer class="row">
+
        @include('includes.footer')
        @include('includes.script')
-   </footer>
-</div>
 </body>
 </html>
